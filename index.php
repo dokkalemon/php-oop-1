@@ -10,7 +10,7 @@
 
 <!-- Import data -->
 <?php
-    require_once __DIR__ '/detabase.php';
+    require_once __DIR__ . '/data/database.php';
 ?>
 
 

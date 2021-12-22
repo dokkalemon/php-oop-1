@@ -14,15 +14,17 @@ class Movie {
     public $title;
     public $director;
     public $genre;
+    public $description;
     public $thumbnail;
     public $cast;
     public $vote;
 
     //CONSTRUCTOR
-    public function __construct($title, $director, $genre, $thumbnail, $cast, $vote) {
+    public function __construct($title, $director, $genre, $description, $thumbnail, $cast, $vote) {
        $this->title = $title;
        $this->director = $director;
        $this->genre = $genre;
+       $this->description = $description;
        $this->thumbnail = $thumbnail;
        $this->cast = $cast;
        $this->vote = $vote;
@@ -31,6 +33,7 @@ class Movie {
     //METHODS
 }
 
-$matrix = new Movie('The Matrix', 'Andy e Larry Wachowski', 'Fantascienza', './img/matrix.jpg', 'Keanu Reeves, Laurence Fishburne, Carrie Anne Moss', 4);
-var_dump($pippo)
+/* Matrix */
+$matrix = new Movie('The Matrix', 'Andy e Larry Wachowski', 'Fantascienza', 'Esistono due realtà: una è l esistenza che conduciamo ogni giorno, l altra è nascosta. Neo vuole scoprire la verità su Matrix, mondo virtuale elaborato al computer creato per tenere sotto controllo le persone. Morpheus potrebbe aiutarlo.', './img/matrix.jpg', 'Keanu Reeves, Laurence Fishburne, Carrie Anne Moss', 4);
+var_dump($matrix)
 ?>

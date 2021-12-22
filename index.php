@@ -9,8 +9,9 @@ metodi d’istanza che abbiamo visto stamattina e create un file index.php in cu
  -->
 
 <?php
-
 class Movie {
+
+    //ATTRIBUTE
     public $title;
     public $director;
     public $genre;
@@ -18,8 +19,9 @@ class Movie {
     public $thumb;
     public $cast;
     public $vote;
+
+    //CONSTRUCTOR
+
+    //METHODS
 }
-
-
-
 ?>

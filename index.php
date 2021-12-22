@@ -11,7 +11,13 @@ metodi d’istanza che abbiamo visto stamattina e create un file index.php in cu
 <?php
 
 class Movie {
-    
+    public $title;
+    public $director;
+    public $genre;
+    public $descriptions;
+    public $thumb;
+    public $cast;
+    public $vote;
 }
 
 

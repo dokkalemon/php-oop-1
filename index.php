@@ -31,9 +31,18 @@ class Movie {
     }
 
     //METHODS
+    public function reduceDescrition() {
+        if (strlen($this->description) > 30) {
+            $str = substr($this->description, 0, 30) . '...';
+        }
+        echo $str;
+    }
 }
 
 /* Matrix */
 $matrix = new Movie('The Matrix', 'Andy e Larry Wachowski', 'Fantascienza', 'Esistono due realtà: una è l esistenza che conduciamo ogni giorno, l altra è nascosta. Neo vuole scoprire la verità su Matrix, mondo virtuale elaborato al computer creato per tenere sotto controllo le persone. Morpheus potrebbe aiutarlo.', './img/matrix.jpg', 'Keanu Reeves, Laurence Fishburne, Carrie Anne Moss', 4);
+$matrix->reduceDescrition();
+
+
 var_dump($matrix)
 ?>

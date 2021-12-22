@@ -42,7 +42,20 @@ class Movie {
 /* Matrix */
 $matrix = new Movie('The Matrix', 'Andy e Larry Wachowski', 'Fantascienza', 'Esistono due realtà: una è l esistenza che conduciamo ogni giorno, l altra è nascosta. Neo vuole scoprire la verità su Matrix, mondo virtuale elaborato al computer creato per tenere sotto controllo le persone. Morpheus potrebbe aiutarlo.', './img/matrix.jpg', 'Keanu Reeves, Laurence Fishburne, Carrie Anne Moss', 4);
 $matrix->reduceDescrition();
+var_dump($matrix);
 
+/* Pirates */
+$pirates = new Movie('Pirati dei Caraibi', 'Gore Verbinski', 'Avventura', 'La figlia del governatore viene rapita da un pirata malvagio. Will Turner, amico d infanzia della ragazza segretamente innamorato di lei, si unisce a Jack Sparrow, un pirata vagabondo, per portare in salvo la fanciulla.', './img/pirati-dei-caraibi.jpg', 'Johnny Depp, Orlando Bloom, Keira Knightley ', 5);
+$pirates->reduceDescrition();
+var_dump($pirates);
 
-var_dump($matrix)
+/* Harry Potter */
+$harry = new Movie('Harry Potter', 'Chris Columbus', 'Fantastico', 'A 11 anni, Harry Potter scopre di essere il figlio orfano di due potenti maghi. Frequenta la scuola di magia e stregoneria di Hogwarts dove scopre la verità su se stesso e sulla morte dei suoi genitori.', './img/harry-potter.jpeg', 'Daniel Radcliffe, Emma Watson, Rupert Grint', 5);
+$harry->reduceDescrition();
+var_dump($harry);
+
+/* Pirates */
+$signore = new Movie('Il Signore degli Anelli', 'Peter Jackson', 'Fantastico', 'Un giovane hobbit e un variegato gruppo, composto da umani, un nano, un elfo e altri hobbit, partono per un delicata missione, guidati dal potente mago Gandalf. Devono distruggere un anello magico e sconfiggere il malvagio Sauron.', './img/signore-degli-anelli.jpg', 'Elijah Wood, Ian McKellen, Vigo Mortensen', 5);
+$signore->reduceDescrition();
+var_dump($signore);
 ?>
